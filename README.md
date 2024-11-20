@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/49ea4652-c1fc-40db-9346-74697fc624d3)
 # Student-Mentor Management System
 
 ## Description
