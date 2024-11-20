@@ -23,3 +23,8 @@ This project is a comprehensive Student-Mentor Management System designed to str
 - Search for mentors based on specific criteria.
 - Schedule mentoring sessions and track them.
 - Manage user profiles effectively.
+#License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+#Acknowledgements
+Special thanks to the contributors and the open-source community.
