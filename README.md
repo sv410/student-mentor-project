@@ -13,3 +13,19 @@ Java: Backend logic and server-side code.
 Firebase: Authentication and real-time database for storing user and session information.
 
 SQL: Handling relational data and complex queries.
+structure of the project :
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── com/
+│   │   │   │   ├── studentmentor/
+│   │   │   │   │   ├── controllers/
+│   │   │   │   │   ├── models/
+│   │   │   │   │   ├── services/
+│   │   │   │   │   ├── StudentMentorApplication.java
+│   │   ├── resources/
+│   │   │   ├── application.properties
+│   └── test/
+│       ├── java/
+│       ├── resources/
+└── README.md
