@@ -1,31 +1,25 @@
-#STUDENT-MENTOR MANAGEMENT SYSTEM
-Project Description
-STUDENT-MENTOR MANAGEMENT SYSTEM
+# Student-Mentor Management System
 
+## Description
 This project is a comprehensive Student-Mentor Management System designed to streamline mentor search, session scheduling, and profile management. It features a robust session management system to track past and upcoming mentoring sessions, enhancing organization and collaboration.
 
-Technologies Used:
+## Technologies Used
+- **XML**
+- **Java**
+- **Firebase**
+- **SQL**
 
-XML: For defining the structure of data.
+## Features
+- **Mentor Search**
+- **Session Scheduling**
+- **Profile Management**
 
-Java: Backend logic and server-side code.
+## Setup
+1. Clone the repository.
+2. Set up Firebase and configure `application.properties`.
+3. Run the application using your IDE or from the command line.
 
-Firebase: Authentication and real-time database for storing user and session information.
-
-SQL: Handling relational data and complex queries.
-structure of the project :
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   ├── com/
-│   │   │   │   ├── studentmentor/
-│   │   │   │   │   ├── controllers/
-│   │   │   │   │   ├── models/
-│   │   │   │   │   ├── services/
-│   │   │   │   │   ├── StudentMentorApplication.java
-│   │   ├── resources/
-│   │   │   ├── application.properties
-│   └── test/
-│       ├── java/
-│       ├── resources/
-└── README.md
+## How to Use
+- Search for mentors based on specific criteria.
+- Schedule mentoring sessions and track them.
+- Manage user profiles effectively.
