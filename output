@@ -1,0 +1,56 @@
+## Examples of Output
+
+### Mentor Search
+**Request**:
+GET /mentors/search?query=Java
+
+
+**Response**:
+```json
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "expertise": "Java"
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "expertise": "Java"
+    }
+]
+Session Scheduling
+Request:
+
+POST /sessions/schedule
+{
+    "mentorId": 1,
+    "userId": 101,
+    "sessionTime": "2024-11-25T10:30:00"
+}
+Response:
+
+json
+{
+    "id": 1,
+    "mentorId": 1,
+    "userId": 101,
+    "sessionTime": "2024-11-25T10:30:00"
+}
+Profile Management
+Request:
+
+POST /profiles/update
+{
+    "id": 101,
+    "name": "Srivani",
+    "email": "srivani@example.com"
+}
+Response:
+
+json
+{
+    "id": 101,
+    "name": "Srivani",
+    "email": "srivani@example.com"
+}
